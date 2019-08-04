@@ -50,15 +50,42 @@
 
 13.	Let it run to finish to complete the experiment.  Do this the first time ahead of the demo to have a completed experiment.
 
-## Using the **Notebook VM**
+## Review the AutoML Experiment
 
+Once the AutoML experiment completes 
 
+1.	Click on the Run ID of the completed experiment
 
-## Using the **Visual interface**
+![runid](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/runid.png)
 
+2.	View the Iteration Chart and view some of the point on the graph
 
+![ichart](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/ichart.png)
 
-## Using **AI insights in Power BI**
+3.	Scroll down to the Iterations and talk about the models and their Spearman Correlation
+
+![spearman](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/spearman.png)
+
+4.	Scroll down and click on Deploy Best Model
+
+![deploybest](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploybest.png)
+
+5.	Register Model
+6.	Download Scoring Script
+7.	Download Environment Script
+8.	Deploy Model
+
+![rddd](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/rddd.png)
+
+9. Edit the scoring script (scoring.py) file
+
+10. Edit the environment script (condaEnv.yml) file
+
+11.	Create an Image
+
+12. Create a Deployment
+
+13.	Consume the AKS web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
 
 
 
