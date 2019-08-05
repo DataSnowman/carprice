@@ -60,3 +60,57 @@
 
 ![doesnotequal](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/doesnotequal.png)
 
+22.	Find the ``bore`` column again
+
+![boreagain](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/boreagain.png)
+
+23.	Click on the datatype ``ABC`` and select ``1.2 Decimal number``
+
+![boredatatype](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/boredatatype.png)
+
+24.	Find the ``stroke`` column
+25.	Click on the datatype ``ABC`` and select ``1.2 Decimal number``
+
+![stroke](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/stroke.png)
+
+26.	Find the ``horsepower`` column
+27.	Click on the datatype ``ABC`` and select ``123 Whole number``
+
+![horsepower](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/horsepower.png)
+
+28.	Find the ``peak-rpm`` column
+29.	Click on the datatype ``ABC`` and select ``123 Whole number``
+
+![peak-rpm](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/peak-rpm.png)
+
+30.	Click Save & close
+
+![saveclose](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/saveclose.png)
+
+31.	Click on Refresh now
+
+![refresh](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/refresh.png)
+
+32.	Click on the left most Edit entity icon in Actions
+
+![editentity](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/editentity.png)
+
+33.	Click on AI insights
+
+![aiinsights](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/aiinsights.png)
+
+34.	Select the carprice model and click ``Apply``
+
+![apply](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/apply.png)
+
+35.	If you get this message click ``Continue``
+
+![continue](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/continue.png)
+
+36.	Review the carprice prediction in the Power BI Dataflow
+
+![review](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/review.png)
+
+37.	Click on ``Cancel`` so the next you use the Dataflow it is starting at the same point.  If you forgot you can just delete the last step ``Invoked AzureML.carprice``
+
+![invoke](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/invoke.png)
