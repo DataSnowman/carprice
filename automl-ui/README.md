@@ -66,26 +66,28 @@ Once the AutoML experiment completes
 
 ![spearman](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/spearman.png)
 
-4.	Scroll down and click on Deploy Best Model
+## Deploy AutoML Experiment carprice model
+
+1.	Scroll down and click on Deploy Best Model
 
 ![deploybest](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploybest.png)
 
-5.	Register Model
-6.	Download Scoring Script
-7.	Download Environment Script
-8.	Deploy Model
+2.	Register Model
+3.	Download Scoring Script
+4.	Download Environment Script
+5.	Deploy Model
 
 ![rddd](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/rddd.png)
 
-9. Edit the scoring script (scoring.py) file
+6. Edit the scoring script (scoring.py) file
 
-10. Edit the environment script (condaEnv.yml) file
+7. Edit the environment script (condaEnv.yml) file
 
-11.	Create an Image
+8.	Create an Image
 
-12. Create a Deployment
+9. Create a Deployment
 
-13.	Consume the AKS web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
+10.	Consume the AKS web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
 
 
 
