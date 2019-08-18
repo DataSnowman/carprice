@@ -41,7 +41,7 @@
 
 12. type or copy and paste ``git clone https://github.com/DataSnowman/carprice.git`` to clone the GitHub repository
 
-![terminalGitClone](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/terminalGitClone.png)
+![terminal](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/terminal.png)
 
 As above you can Clone this GitHub repository using the following commands: 
 
