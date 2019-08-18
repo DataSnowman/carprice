@@ -3,6 +3,5 @@
 ## Create an Visual interface Experiment
 
 
-
-![createviexp](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/createviexp.png)
+``Note: To be done later since the Visual Interface did not auto-decorate the web service so it can be used in Power BI Dataflows.``
 
