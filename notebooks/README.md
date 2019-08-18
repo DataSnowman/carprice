@@ -77,7 +77,7 @@ You might want to make a new directory prior to cloning (like creating a `repos`
 
 5. Run the cells in the Data section
 
-6. Run the cells in the Train section.  The remote_run experiment cell is going to run for a while.
+6. Run the cells in the Train section.  The remote_run experiment cell is going to run for a while (20 minutes).  Check it out in the Automated machine learning UI in the Authoring section of the AML service workspace 
 
 ![train](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/train.png)
 
@@ -86,6 +86,22 @@ You might want to make a new directory prior to cloning (like creating a `repos`
 8. Run the cells in the Retrieve the Best Model section
 
 9. Run the cells in the Register the Fitted Model for Deployment section
+
+10. Run the Create Scoring Script cell
+
+11. Run the Create a YAML File for the Environment cells
+
+12. Run the Create a Container Image cell
+
+13. Run the Deploy the Image as a Web Service on Azure Container Instance cells
+
+14. Consume the ACI web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
+
+15. If you uncomment the Delete a Web Service cell `#aci_service.delete()` you can delete the ACI webservice.  You can also delete from the Deployment Assets in the AML service workspace.
+
+16. Run the Test section cells to test the web service in the notebook
+
+17. Remember to delete the ACI deployment so you are not charged for the compute.  Unless you want to show it to the Power BI users in your organization.  Then use your learnings to deploy a model in your organization.
 
 ## Stop the Notebook VM
 
