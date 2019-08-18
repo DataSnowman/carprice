@@ -49,28 +49,48 @@ As above you can Clone this GitHub repository using the following commands:
 
 You might want to make a new directory prior to cloning (like creating a `repos` directory using `mkdir repos`)
 
-Go back to you Jupyter Notebook Files and navigate to the `carprice` directory
+13. Go back to you Jupyter Notebook Files and navigate to the `carprice` directory
 
+![carpriceDir](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/carpriceDir.png)
 
+14. Navigate to the `notebooks` directory
 
+![notebooksDir](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/notebooksDir.png)
 
+## Running the carprice regression.ipynb notebook in the Azure Machine Learning service Notebook VM
 
+1. Open the `carprice regression.ipynb` file and select the Python 3.6 - AzureML kernel and click Set Kernel
 
-![amlworkshopDir](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlworkshopDir.png)
+![carpricereg](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/carpricereg.png)
 
-## Running the MNIST notebooks in the Azure Machine Learning service Notebook VM
+2. Run the first cell in the Setup section of the notebook by clicking on the cell and Ctrl+Enter on keyboard 
 
-[Deep Learning start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks#mnist-deep-learning-example)
+![cell1setup](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/cell1setup.png)
 
-[Machine Learning start here](https://github.com/DataSnowman/amlworkshop/tree/master/notebooks#mnist-machine-learning-example)
+3. Run the second cell in the Setup section of the notebook by clicking on the cell and Ctrl+Enter on keyboard 
+
+![cell2auth](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/cell2auth.png)
+
+4. Run the `Create or Attach existing AmlCompute` cell.  This cell is going to take about 5 minutes to complete.
+
+![cell3](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/cell3.png)
+
+5. Run the cells in the Data section
+
+6. Run the cells in the Train section.  The remote_run experiment cell is going to run for a while.
+
+![train](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/train.png)
+
+7. Run the cells in the Results section
+
+8. Run the cells in the Retrieve the Best Model section
+
+9. Run the cells in the Register the Fitted Model for Deployment section
 
 ## Stop the Notebook VM
 
 When you are done using the Notebook VM go back to the Notebook VMs console and click `Stop`.  You can return here to start it again, but this way you are not charged for compute while it is not being used.
 
-![amlNotebookVMsConsole3Stop](https://raw.githubusercontent.com/DataSnowman/amlworkshop/master/images/amlNotebookVMsConsole3.png)
+![amlNotebookVMsConsole3Stop](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/amlNotebookVMsConsole3.png)
 
 
-cloning this GitHub repository using Git and the following commands:
-
-``git clone https://github.com/DataSnowman/carprice.git``
