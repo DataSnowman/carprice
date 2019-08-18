@@ -111,6 +111,6 @@
 
 ![review](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/review.png)
 
-37.	Click on ``Cancel`` so the next you use the Dataflow it is starting at the same point.  If you forgot you can just delete the last step ``Invoked AzureML.carprice``
+37.	Click on ``Cancel`` so the next you use the Dataflow it is starting at the same point.  If you forgot you can just delete the last 3 steps up to and including “Invoked AzureML.carpricedemo” 
 
 ![invoke](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/invoke.png)
