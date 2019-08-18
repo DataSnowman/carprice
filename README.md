@@ -13,7 +13,11 @@ The learning in this exercise is to learn how to create and deploy ML models usi
 
 You can find details on creating an AML service workspace [here](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-manage-workspace#create-a-workspace)
 
-3. Save the csv file carprice.csv that is available [here](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/carprice.csv) to a folder on your machine, e.g. to Documents\AutoML\CarPrice.  Or you can get it from this Repo [here](https://raw.githubusercontent.com/DataSnowman/carprice/master/dataset/carprice.csv)
+3. Save the csv file carprice.csv that is available [here](https://raw.githubusercontent.com/DataSnowman/carprice/master/dataset/carprice.csv)
+
+You can also get the file by downloading a zip of this repository or by cloning this GitHub repository using Git and the following commands:
+
+``git clone https://github.com/DataSnowman/carprice.git``
 
 
 ## Using the **Automated machine learning UI**
