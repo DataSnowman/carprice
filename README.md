@@ -19,10 +19,13 @@ You can also get the file by downloading a zip of this repository or by cloning 
 
 ``git clone https://github.com/DataSnowman/carprice.git``
 
+## Using the NEW **Workspace2 AML Preview Automated machine learning UI**
 
-## Using the **Automated machine learning UI**
+To learn how to create and deploy a ML model for the carprice dataset using the Azure Machine Learning service **Workspace2 AML Preview Automated machine learning UI** click [here](https://github.com/DataSnowman/carprice/tree/master/ws2preview-automl-ui)
 
-To learn how to create and deploy a ML model for the carprice dataset using the Azure Machine Learning service **Automated machine learning UI** click [here](https://github.com/DataSnowman/carprice/tree/master/automl-ui)
+## Using the **Azure Portal Automated machine learning UI**
+
+To learn how to create and deploy a ML model for the carprice dataset using the Azure Machine Learning service **Azure Portal Automated machine learning UI** click [here](https://github.com/DataSnowman/carprice/tree/master/automl-ui)
 
 ## Using the **Notebook VM**
 
