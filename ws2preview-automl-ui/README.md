@@ -27,27 +27,35 @@ Then click Get Started
 
 ![expname2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/expname2.png)
 
-5.	Enter a Compute name, Select virtual machine size, set Minimum number of nodes to 0, set Maximum number of nodes to 6, and click Create
+6.	Enter a Compute name, Select virtual machine size, set Minimum number of nodes to 0, set Maximum number of nodes to 6, and click Create
 
 ![createcompute2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/createcompute2.png)
 
 This may take a couple minutes
 
-![createnewcompute](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/createnewcompute.png)
+![createnewcompute2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/createnewcompute2.png)
 
-6.	Select a training compute and chose the new compute created above.  Click ``Next``
+7.	Select a training compute and chose the new compute created above.  Click ``Next``
 
 ![amlnext2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/amlnext2.png)
 
-7.	Click on Upload from local file to upload the carprice.csv you downloaded in the prerequisites. Or get it from the path where you cloned this GitHub repo.
+8.	Click on Upload from local file to upload the carprice.csv you downloaded in the prerequisites. Or get it from the path where you cloned this GitHub repo.  Give it a Name and click Next
 
-![uploaddataset](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddataset.png)
+![uploaddatasetbasicinfo](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetbasicinfo.png)
 
-8.	Select carprice.csv
+9.  Review the setting and preview and click Next
 
-![selectcarprice](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/selectcarprice.png)
+![uploaddatasetpreview](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetpreview.png)
 
-9.	Preview the data.  You may need to have at least 1 node runnin on on ML compute to see the preview.
+10. Review the Schema.  Remove the ``symboling`` and ``normalized-losses`` columns
+
+![uploaddatasetschema1](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetschema1.png)
+
+Change the Type of the ``price`` column to Integer.  Click Done
+
+![uploaddatasetschema2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetschema2.png)
+
+9.	Preview the data.
 
 ![previewdata](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/previewdata.png)
 
