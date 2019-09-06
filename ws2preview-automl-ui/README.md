@@ -95,7 +95,7 @@ Once the AutoML experiment completes
 
 2. Deploy Model, enter a Deployment name and click the Deploy button.
 
-``Note that if you click the Deploy button it is going to take 20 minutes to deploy the model.  You will also have to delete the deployment, so you are not charged on Azure to continue to run the compute in an Azure Container Instance (ACI)``
+``Note that if you click the Deploy button it is going to take 5 to 10 minutes to deploy the model.  You will also have to delete the endpoint, so you are not charged on Azure to continue to run the compute in an Azure Container Instance (ACI)``
 
 ![deploymodel2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploymodel2.png)
 
@@ -112,7 +112,3 @@ Once the AutoML experiment completes
 ![deletedeployment2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deletedeployment2.png)
 
 6.	Consume the ACI web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
-
-
-
-
