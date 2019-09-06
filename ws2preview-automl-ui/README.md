@@ -51,24 +51,21 @@ This may take a couple minutes
 
 ![uploaddatasetschema1](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetschema1.png)
 
-Change the Type of the ``price`` column to Integer.  Click Done
+11. Change the Type of the ``price`` column to Integer.  Click Done
 
 ![uploaddatasetschema2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/uploaddatasetschema2.png)
 
-9.	Preview the data.
+12.	Preview the data.
 
-![previewdata](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/previewdata.png)
+![previewdata2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/previewdata2.png)
 
-10.	Ignore the SYMBOLING and NORMALIZED-LOSSES columns (features) by clicking on the Included/Ignored slider
+13.	We excluded a couple of columns earlier but if forgot Ignore the SYMBOLING and NORMALIZED-LOSSES columns (features) by clicking on the Included/Ignored slider
 
-![ignore](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/ignore.png)
+14.	Chose ``Regression`` for the prediction task and ``price`` for Target column. Click ``Start``
 
-11.	Chose Regression for the prediction task and price for Target column.
-12.	Click ``Start``
+![regression](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/regression.png)
 
-![start](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/start.png)
-
-13.	Let it run to finish to complete the experiment.  Do this the first time ahead of the demo to have a completed experiment.
+15.	Let it run to finish to complete the experiment.  Do this the first time ahead of the demo to have a completed experiment.
 
 ## Review the AutoML Experiment
 
@@ -76,43 +73,43 @@ Once the AutoML experiment completes
 
 1.	Click on the Run ID of the completed experiment
 
-![runid](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/runid.png)
+![runid2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/runid2.png)
 
 2.	View the Iteration Chart and view some of the point on the graph
 
-![ichart](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/ichart.png)
+![ichart2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/ichart2.png)
 
 3.	Scroll down to the Iterations and talk about the models and their Spearman Correlation
 
-![spearman](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/spearman.png)
+![spearman2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/spearman2.png)
 
 4.	Click on VotingEnsemble and look at the graph Predicted vs. True
 
-![predvtrue](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/predvtrue.png)
+![predvtrue2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/predvtrue2.png)
 
 ## Deploy AutoML Experiment carprice model
 
-1.	Scroll down and click on Deploy Model VotingEnsemble
+1.	Click on ``Deploy Model VotingEnsemble``
 
-![voting](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/voting.png)
+![voting2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/voting2.png)
 
 2. Deploy Model, enter a Deployment name and click the Deploy button.
 
 ``Note that if you click the Deploy button it is going to take 20 minutes to deploy the model.  You will also have to delete the deployment, so you are not charged on Azure to continue to run the compute in an Azure Container Instance (ACI)``
 
-![deploymodel](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploymodel.png)
+![deploymodel2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploymodel2.png)
 
-3. To see how the deployment is proceeding click on Images in the Assets section of the AML service workspace to see the image.  The status will be Running until the image is created and then it will change to Succeeded
+3. To see how the deployment is proceeding click on Endpoints in the Assets section of the AML service workspace2 to see the Endpoint.
 
-![deployedmage](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deployedmage.png)
+![deployendpoint](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deployendpoint.png)
 
-4. Once the image creation succeeds, to see how the deployment is proceeding click on Deployments in the Assets section of the AML service workspace to see the deployment.  
+4. To see how the deployment is proceeding click on the endpoint.  The State will be Transitioning until the endpoint is created and the State will change to Healthy  
 
-![deployment](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deployment.png)
+![deploymentstate](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deploymentstate.png)
 
-5. After you are finished with the deployment you can delete the ACI deployment by clicking the box in front of the deployment and click on Delete.  ``Note that you will only want to do this after the Power BI part is completed``
+5. After you are finished with the endpoint you can delete the ACI endpoint by clicking in front of the endpoint and clicking on Delete.  ``Note that you will only want to do this after the Power BI part is completed``
 
-![deletedeployment](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deletedeployment.png)
+![deletedeployment2](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/deletedeployment2.png)
 
 6.	Consume the ACI web service in Power BI by clicking [here](https://github.com/DataSnowman/carprice/tree/master/powerbi)
 
