@@ -7,11 +7,15 @@
 
 ![openworkspace](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/openworkspace.png)
 
-2.	Click on **Update this when the UX is there**
+2.	Click on the **Launch Preview Now** button
 
-![updateThis](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/updateThis.png)
+``Contents of this page will be moving to a new immersive experience for managing the end-to-end machine learning lifecycle. Compute targets will be manageable from both locations. Features provided in preview are offered at no additional charge but may not remain so after general availability.``
 
-3.  Select your Subscription and Machine Learning Workspace
+Note you can also navigate directly to the new immersive experience [here](https://ml.azure.com/)
+
+![portal](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/portal.png)
+
+3.  If asked select your Subscription and Machine Learning Workspace.  If not asked move to Step 4.
 
 ![choosesubws](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/choosesubws.png)
 
