@@ -48,3 +48,5 @@ To learn how to use the carprice ML model to predict the price of a car using **
 ![pbi](https://raw.githubusercontent.com/DataSnowman/carprice/master/images/pbi.png)
 
 At the time of creating this Repo decorating the web service so that it is usable in **AI insights** in a Power BI Dataflow was not available when using the AML service **Visual interface**.  This will not be the case as we move into fall 2019 when this scenario will also work from the **Visual interface**. 
+
+Add to test connection to GitHub
